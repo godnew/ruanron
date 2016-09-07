@@ -2,130 +2,204 @@
     <div>
         <img src="images/home/logo.png" alt=""/>
         <ul class="homeNav">
-            <li><a href="#home">首页</a></li>
-            <li><a href="" ng-click="jump.javaEmploy()">就业前景</a></li>
-            <li><a href="" ng-click="jump.javaAdvantage()">软融优势</a></li>
-            <li><a href="" ng-click="jump.javaProject()">项目展示</a></li>
-            <li><a href="" ng-click="jump.javaSign()">立即报名</a></li>
+            <li><a href="">首页</a></li>
+            <li ><a href="" >创客中心</a></li>
+            <li class="topActive"><a href="">产品中心</a></li>
+            <li><a href="">合作联盟</a></li>
+            <li><a href="">关于我们</a></li>
         </ul>
     </div>
 </header>
-<div class="rel pct100 cBanner" >
-    <img src="images/java/banner.png" alt="" class="pct100" style="height: 605px;"/>
-    <p class="abs pct100 tc wh">Java前端工程师</p>
-    <p class="abs pct100 tc wh">专业讲师带领真实项目实战。</p>
-    <div class="cButton abs fw" onclick="toshare()" style="right: 338px">了解更多</div><div class="cButton abs fw" style="left: 338px;" onclick="toshare()">点击报名</div>
-
-</div>
-<div class="df aic" style="margin-top: 80px;" id="javaEmploy">
-    <span class="fx1 border"></span>
-    <div >
-        <h1 class="tc fw">2016年 <span style="color: #00bbd3">JAVA</span> 行业调查</h1>
-        <p class="tc fw">we only do most authentic research</p>
-    </div>
-    <span class="fx1 border"></span>
-</div>
-<div class="javaIntro auto df">
-    <img src="images/java/employ1.png" alt=""/>
-    <img src="images/java/employ1-intro.png" alt=""/>
-</div>
-<div class="javaIntro auto df">
-    <img src="images/java/employ2-intro.png" alt=""/>
-    <img src="images/java/employ2.png" alt=""/>
-</div>
-<div style="margin-top: 80px;padding-top:80px;padding-bottom: 50px;background: #f4f4f4">
-    <div class="df aic" id="javaAdvantage">
-        <span class="fx1 border"></span>
-        <div >
-            <h1 class="tc fw">为什么会选择我们</h1>
-            <p class="tc fw">we only do most authentic research</p>
+<div class="home-banner">
+    <img src="images/java/banner.png" alt="" width="100%" height="560px">
+    <div style="position: absolute;top:0;height: 100%;width: 1200px;margin:auto;left:0;right: 0;">
+        <div class="java-banner-message fix">
+            <img src="images/java/banner_titl.png" alt="">
+            <p class="l f24 wh" style="margin-left: 100px;margin-top:50px;">与你同行，携手创新</p>
+            <div class="l">了解更多</div>
         </div>
-        <span class="fx1 border"></span>
     </div>
-    <ul class="javaSelect df jcsb aic">
-        <ul>
-            <li style="background: url(images/java/N1.png) no-repeat right top">
-                <h1>教学靠谱</h1>
-                <p>课程体系每年升级，讲师、项目经理均为专职，培养体系严谨、苛刻。</p>
-            </li>
-            <li style="background: url(images/java/N2.png) no-repeat right top">
-                <h1>学会为止</h1>
-                <p>学不会，在软融学院可以无期限免费重修，找工作，在兄弟连包括这辈子你日后跳槽都可以无期限免费推荐。</p>
-            </li>
-            <li style="background: url(images/java/N3.png) no-repeat right top">
-                <h1>最前沿的职业规划</h1>
-                <p>形式新颖不落俗套的职场实践课贯穿学习始终。兄弟连创始人超哥亲自授课。分享自己三十几年的人生经历。</p>
-            </li>
-        </ul>
-        <div><img src="images/java/intro.png" alt="" class=""/></div>
-        <ul>
-            <li style="background: url(images/java/N4.png) no-repeat left top">
-                <h1>严格管理</h1>
-                <p>我们爱你，所以要更加严厉，这样才能培养出IT特种兵。</p>
-            </li>
-            <li style="background: url(images/java/N5.png) no-repeat left top">
-                <h1>一对一项目辅导</h1>
-                <p>课下项目经理一对一强化训练，学与练交叉进行，强化记忆，你说做的就是认真听，勤于问，乐于练。</p>
-            </li>
-            <li style="background: url(images/java/N6.png) no-repeat left top">
-                <h1>教室24小时开放</h1>
-                <p>兄弟连一直坚持人手一机，24小时教室开放，晚上11点凌晨4点都将看到为执着于理想苦学的兄弟姐妹</p>
-            </li>
-        </ul>
-    </ul>
-    <h1 style="margin-top: 45px;font-size: 40px;color: #121212" class="tc n">课程紧跟企业需求，市场价值节节攀升</h1>
-    <div class="auto" style="width: 1200px;margin-top: 40px;"><img src="images/java/list.png" alt=""/></div>
-    <div class="javaBtn df jcsb"><button onclick="toshare()">了解更多</button><button onclick="toshare()">点击报名</button></div>
 </div>
-<div style="padding-top: 80px;padding-bottom: 50px;">
-    <div class="df aic" id="javaProject">
-        <span class="fx1 border"></span>
-        <div >
-            <h1 class="tc fw">学院实战项目展示</h1>
-            <p class="tc fw">we only do most authentic research</p>
-        </div>
-        <span class="fx1 border"></span>
+<div class="java-team rel ">
+    <hr>
+    <div class="java-head df aic">
+        <span></span>
+        <span>专业团队</span>
+        <span></span>
     </div>
-    <ul class="javaProject df jcsb">
-        <li index="1"><div></div></li>
-        <li index="2"></li>
-        <li index="3"></li>
-        <li index="4"></li>
-        <li index="5"></li>
-        <li index="6"></li>
+    <p style="width:800px;margin:auto;line-height: 26px;color:#666666;font-size:16px;text-align: center;margin-top: 65px;margin-bottom:40px;">我们是互联网+时代的高端项目制作团队，从事APP制作、网站建设、微信端平台搭建已有多年，在此领域积累了相当丰富的设计经验和策划经验，曾多次为各大公司服务，并取得陪良好的口碑</p>
+    <ul class="df w1200 auto">
+        <li class="tc">
+            <img src="images/java/icon_house.png" alt="" class="mt25">
+            <p class="f16 g6 mt20">团队协作</p>
+            <p class="f14 g6 mt10">In the same boat</p>
+        </li>
+        <li class="tc">
+            <img src="images/java/icon_king.png" alt="" class="mt25">
+            <p class="f16 g6 mt20">团队荣誉</p>
+            <p class="f14 g6 mt10">In the same boat</p>
+        </li>
+        <li class="tc">
+            <img src="images/java/icon_power.png" alt="" class="mt25">
+            <p class="f16 g6 mt20">团队力量</p>
+            <p class="f14 g6 mt10">In the same boat</p>
+        </li>
+        <li class="tc">
+            <img src="images/java/icon_history.png" alt="" class="mt25">
+            <p class="f16 g6 mt20">团队过往</p>
+            <p class="f14 g6 mt10">In the same boat</p>
+        </li>
+        <li class="tc">
+            <img src="images/java/icon_team.png" alt="" class="mt25">
+            <p class="f16 g6 mt20">团队精神</p>
+            <p class="f14 g6 mt10">In the same boat</p>
+        </li>
     </ul>
-    <div><img src="images/java/scroll1.png" alt="" id="javaShowImg"/></div>
 </div>
-<div class="javaFooter" id="javaSign">
+<div class="java-product rel">
+    <hr>
+    <div class="java-head df aic" style="background: #f5f5f5;top:64px;">
+        <span></span>
+        <span>专业团队</span>
+        <span></span>
+    </div>
+    <ul class="java-product-nav df jcc mt">
+        <li>移动端应用</li>
+        <li>微信端产品</li>
+        <li>各类型网站</li>
+    </ul>
+    <ul class="df jcsb fww java-product-content w1200 auto">
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+        <li>
+            <img src="images/java/content2_pic.png" alt="" class="mt20">
+            <p class="f14 g1 mt20">互联网+农业</p>
+            <p class="f12 g1 mt10">加快弄产品销出效率，减少资源损失</p>
+            <div class="java-product-button f12">了解更多</div>
+        </li>
+    </ul>
+    <div class="java-product-btn">
+        查看更多
+    </div>
+</div>
+<div class="java-example rel">
+    <hr>
+    <div class="java-head df aic" style="top:64px;">
+        <span></span>
+        <span>案例中心</span>
+        <span></span>
+    </div>
+    <p class="tc f16 g1" style="margin-top:50px;">我们已经成功帮助数十家企业建设平台，并且得到了用户的一致好评</p>
+    <ul class="auto w1200 java-example-content df jcsb">
+        <li>
+            <img src="images/java/content3_pic.png" alt="">
+            <p class="java-example-intro">微信端商城建设</p>
+        </li>
+        <li>
+            <img src="images/java/content3_pic.png" alt="">
+        </li>
+        <li>
+            <img src="images/java/content3_pic.png" alt="">
+        </li>
+        <li>
+            <img src="images/java/content3_pic.png" alt="">
+        </li>
+        <li>
+            <img src="images/java/content3_pic.png" alt="">
+        </li>
+        <li>
+            <img src="images/java/content3_pic.png" alt="">
+        </li>
+    </ul>
+</div>
+<div class="java-example rel">
+    <hr>
+    <div class="java-head df aic" style="top:64px;">
+        <span></span>
+        <span>服务伙伴</span>
+        <span></span>
+    </div>
+    <ul class="w1200 auto df jcsb" style="margin-top:70px;margin-bottom:60px;">
+        <li><img src="images/java/58-logo.png" alt=""></li>
+        <li><img src="images/java/taobao-logo.png" alt=""></li>
+        <li><img src="images/java/jd-logo.png" alt=""></li>
+        <li><img src="images/java/unicom-logo.png" alt=""></li>
+        <li><img src="images/java/youku-logo.png" alt=""></li>
+    </ul>
+</div>
+<div class="form">
     <div>
-        <p>当你的才华还撑不起你的野心时，就应该静下心来学习；当你的能力还驾驭不了你的目标时，就应该沉下心来历练。</p>
-        <p>梦想不是等待，而是行动和奋斗。马上行动！</p>
-        <span class="javaB" onclick="toshare()">了解更多</span>
-        <span class="javaB" onclick="toshare()">点击报名</span>
+        <p class="tc">更好的服务给您</p>
+        <div class="form-content df aic">
+            <form action="">
+                <input type="text" name="form-company" placeholder="公司名称："/>
+                <input type="text" name="form-name" placeholder="姓名：">
+                <input type="text" name="form-phone" placeholder="联系方式：">
+                <div>
+                    <textarea name="" id="" cols="30" rows="10" name="form-message" placeholder="留言："></textarea>
+                </div>
+                <input type="submit" value="提交">
+            </form>
+            <div class="form-message">
+                <p>请留下您的信息或直接联系我们</p>
+                <p>我们会根据您的企业现状提供优质的方案</p>
+                <p>电话咨询：4007-702-802</p>
+                <p>地理位置：上海市松江区江田东路185号9号楼208室</p>
+            </div>
+        </div>
     </div>
 </div>
 <div class="home-connect">
-    <div class="df">
-        <ul class="mt10">
-            <li>培训中心</li>
-            <li><a href="">web前端</a></li>
-            <li><a href="">C++工程师</a></li>
-            <li><a href="">PHP工程师</a></li>
-            <li><a href="">UI设计师</a></li>
+    <div class="df aic">
+        <ul >
+            <li><a href="">天使贷</a></li>
+            <li><a href="">技术投资</a></li>
+            <li><a href="">联合投资</a></li>
         </ul>
-        <ul class="mt10">
-            <li>关于我们</li>
-            <li><a href="">师资力量</a></li>
-            <li><a href="">学习环境</a></li>
-            <li><a href="">软融官网</a></li>
-            <li><a href="">合作伙伴</a></li>
-        </ul>
-        <ul class="mt10">
-            <li>联系我们</li>
+        <ul >
             <li>公司：窝游信息技术（上海）有限公司</li>
             <li>地址：上海市松江区江田东路185号9号楼208室</li>
             <li>邮箱：perterqiu@qq.com</li>
-            <li>电话：021-67760799</li>
         </ul>
         <div class="home-wx tc">
             <img src="images/home/qrcode.png" alt=""/>

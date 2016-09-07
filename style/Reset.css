@@ -67,6 +67,8 @@ table {
 hr {
     border: none;
     height: 1px;
+    width: 100%;
+    background: #c6c6c6;
 }
 
 /* �÷�ie�����Ĭ��Ҳ��ʾ��ֱ����������ֹ��������������˸ */
