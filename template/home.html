@@ -3,10 +3,10 @@
         <img src="images/home/logo.png" alt=""/>
         <ul class="homeNav">
             <li><a href="">首页</a></li>
-            <li class="topActive"><a href="" >创客中心</a></li>
-            <li><a href="">产品中心</a></li>
-            <li><a href="">合作联盟</a></li>
-            <li><a href="">关于我们</a></li>
+            <li class="topActive"><a href="#home" >创客中心</a></li>
+            <li><a href="#java">产品中心</a></li>
+            <li><a href="#php">合作联盟</a></li>
+            <li><a href="#ui">关于我们</a></li>
         </ul>
     </div>
 </header>
@@ -16,7 +16,7 @@
         <div class="home-banner-message">
             <p>软融创客空间</p>
             <p>与你同行，携手创新</p>
-            <div>了解更多</div>
+            <div class="poi">了解更多</div>
         </div>
     </div>
 </div>
@@ -70,18 +70,18 @@
                         <p class="mt20 f24 g1">主要针对支付能力有限的公司</p>
                     </div>
                 </div>
-                <div class="pct50 rel">
+                <div class="pct50 rel home-content-contain">
                     <img src="images/home/pic1.png" alt="">
-                    <div class="home-content-intro df fdc jcc">
-                        <p>专业技术团队</p>
-                        <p>超强技术积累</p>
+                    <div class="home-content-intro df fdc jcc" style="display: none;">
+                        <p>0首付  分期付</p>
+                        <p>起始规模 5-100万</p>
                     </div>
                 </div>
             </li>
             <li class="df">
-                <div class="pct50 rel">
+                <div class="pct50 rel home-content-contain">
                     <img src="images/home/pic3.png" alt="">
-                    <div class="home-content-intro df fdc jcc">
+                    <div class="home-content-intro df fdc jcc" style="display: none;">
                         <p>专业技术团队</p>
                         <p>超强技术积累</p>
                     </div>
@@ -106,9 +106,9 @@
                         <p class="mt20 f24 g1">主要针对支付能力有限的公司</p>
                     </div>
                 </div>
-                <div class="pct50 rel">
+                <div class="pct50 rel home-content-contain" >
                     <img src="images/home/pic2.png" alt="">
-                    <div class="home-content-intro df jcsa aic">
+                    <div class="home-content-intro df jcsa aic" style="display: none;">
                         <div class="tc">
                             <img src="images/home/ui_icon1.png" alt="">
                             <p class="f20 tc mt20 wh">技术支持</p>
@@ -143,7 +143,7 @@
     <div>
         <p class="tc">更好的服务给您</p>
         <div class="form-content df aic">
-            <form action="">
+            <form action="" method="get">
                 <input type="text" name="form-company" placeholder="公司名称："/>
                 <input type="text" name="form-name" placeholder="姓名：">
                 <input type="text" name="form-phone" placeholder="联系方式：">
