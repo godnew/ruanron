@@ -2,7 +2,7 @@
     <div>
         <img src="images/home/logo.png" alt=""/>
         <ul class="homeNav">
-            <li><a href="">首页</a></li>
+            <li><a href="http://www.ruanron.com">首页</a></li>
             <li><a href="#home" >创客中心</a></li>
             <li><a href="#java">产品中心</a></li>
             <li><a href="#php">合作联盟</a></li>
@@ -16,7 +16,7 @@
         <div class="ui-banner-message">
             <p>专业技术团队,专 业技术团队</p>
             <p>与你同行，携手创新与你同行， 携手创新，携手创新</p>
-            <div class="poi">了解更多</div>
+            <div class="poi" ng-click="jump.target()">了解更多</div>
         </div>
     </div>
 </div>
@@ -25,7 +25,7 @@
         软融——专注于互联网+技术天使，通过技术开发、技术投资、技术培训、项目运营四种形式为企业提供一站式技术服务！
     </div>
 </div>
-<div class="ui-intro">
+<div class="ui-intro" id="uitarget">
     <div class="w1200 auto">
         <div class="ui-intro-top">
             <p>我们的团队</p>
@@ -64,24 +64,24 @@
             <li class="bge0">
                 <h1 class="n tc f24 g1 mb10 mt50">多媒体会议室</h1>
                 <div style="width:55px;border:1px solid #00bbd3;margin:auto;"></div>
-                <p class="f18 g1 lh22 mt10 pr30 pl30">多媒体会议室是个可以满足召开各种报告会、演讲会、讨论会议、学术交流会等需要的平台。可召开4+1语种同声传译</p>
+                <p class="f18 g1 lh22 mt10 pr30 pl30">可以满足各种报告会，演讲会、讨论会、学术交流等需求的平台。</p>
             </li>
             <li><img src="images/ui/class1.png" alt=""></li>
             <li class="bge0">
                 <h1 class="n tc f24 g1 mb10 mt50">整洁的办公区域</h1>
                 <div style="width:55px;border:1px solid #00bbd3;margin:auto;"></div>
-                <p class="f18 g1 lh22 mt10 pr30 pl30">多媒体会议室是个可以满足召开各种报告会、演讲会、讨论会议、学术交流会等需要的平台。可召开4+1语种同声传译</p>
+                <p class="f18 g1 lh22 mt10 pr30 pl30">在这里，有我们的专业技术团队和强大的运营团队。工作氛围轻松活泼，效率高。</p>
             </li>
             <li class="bge0">
                 <h1 class="n tc f24 g1 mb10 mt50">软融学院教室</h1>
                 <div style="width:55px;border:1px solid #00bbd3;margin:auto;"></div>
-                <p class="f18 g1 lh22 mt10 pr30 pl30">多媒体会议室是个可以满足召开各种报告会、演讲会、讨论会议、学术交流会等需要的平台。可召开4+1语种同声传译</p>
+                <p class="f18 g1 lh22 mt10 pr30 pl30">这里硬件设施齐全，学员们在这里将进行轻松、愉悦而又紧张的技术课题。</p>
             </li>
             <li><img src="images/ui/class1.png" alt=""></li>
             <li class="bge0">
                 <h1 class="n tc f24 g1 mb10 mt50">轻松的工作氛围</h1>
                 <div style="width:55px;border:1px solid #00bbd3;margin:auto;"></div>
-                <p class="f18 g1 lh22 mt10 pr30 pl30">多媒体会议室是个可以满足召开各种报告会、演讲会、讨论会议、学术交流会等需要的平台。可召开4+1语种同声传译</p>
+                <p class="f18 g1 lh22 mt10 pr30 pl30">公司管理人性化，工作氛围轻松愉悦，这也就造就了高效的工作业绩。</p>
             </li>
             <li><img src="images/ui/class1.png" alt=""></li>
         </ul>
@@ -101,15 +101,15 @@
             </li>
             <li class="df aic mt30">
                 <img src="images/ui/industry2.png" alt="">
-                <p style="width: 370px;" class="f20 g1 lh30 ml30">引领技术进步，创造技术规范，实现技术创造，帮助各企业成功解决互联网技术难题，成为各企业的技术好帮手。</p>
+                <p style="width: 370px;" class="f20 g1 lh30 ml30">细节决定成败，思路决定业路，我们工作严谨细致，以最快的速度，最高的标准给到客户一个满意的答案。</p>
             </li>
             <li class="df aic mt80">
                 <img src="images/ui/industry3.png" alt="">
-                <p style="width: 370px;" class="f20 g1 lh30 ml30">引领技术进步，创造技术规范，实现技术创造，帮助各企业成功解决互联网技术难题，成为各企业的技术好帮手。</p>
+                <p style="width: 370px;" class="f20 g1 lh30 ml30">在互联网+这样一个背景下，引领技术进步，这是软融作为商业机构，技术天使存在的意义和动机，也只是软融必须承担责任和义务。</p>
             </li>
             <li class="df aic mt80">
                 <img src="images/ui/industry4.png" alt="">
-                <p style="width: 370px;" class="f20 g1 lh30 ml30">引领技术进步，创造技术规范，实现技术创造，帮助各企业成功解决互联网技术难题，成为各企业的技术好帮手。</p>
+                <p style="width: 370px;" class="f20 g1 lh30 ml30">专注于互联网＋的技术天使，通过技术开发，技术投资，技术培训，项目运营四种形式去帮助企业实现技术障碍。</p>
             </li>
         </ul>
     </div>
